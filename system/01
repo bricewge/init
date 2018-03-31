@@ -1,1 +1,4 @@
-/etc/os-release
+#!/usr/bin/sh env
+# You find the installed version of your Debian in: /etc/os-release
+
+ls /etc/os-release

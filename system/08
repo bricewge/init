@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+# The file which contains the RSA keys that are authorized to connect via SSH
+# is /etc/authorized_keys
+
+ls /etc/authorized_keys

@@ -1,1 +1,4 @@
-/etc/hostname
+#!/usr/bin/env
+# To rename your system permanently you need to modify: /etc/hostname
+
+ls /etc/hostname

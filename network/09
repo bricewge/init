@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.8.3-P1 <<>> @8.8.8.8 42.fr
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61897
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;42.fr.				IN	A
+
+;; ANSWER SECTION:
+42.fr.			3599	IN	A	163.172.250.12
+42.fr.			3599	IN	A	163.172.250.11
+
+;; Query time: 136 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Feb 16 19:52:07 2018
+;; MSG SIZE  rcvd: 55
+

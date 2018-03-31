@@ -1,1 +1,4 @@
-/etc/hosts
+#!/usr/bin/env sh
+# The file containg the DNS entries is located at /etc/hosts
+
+ls /etc/hosts

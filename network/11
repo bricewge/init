@@ -1,1 +1,9 @@
-It correspond to the last line with an IP address begining by 10; ie. the last from our current subnetwork
+#!/usr/bin/env sh
+# The device that makes the link between my machine and the Internet is named
+# nat-1 and it's IP is 10.60.1.11
+# 
+# It correspond to the last line with an IP address begining by 10;
+# ie. the last from our current subnetwork.  An other way to do that is by
+# noticing the name of the machine: nat-1 (Network Address Translation).
+
+traceroute slash16.org

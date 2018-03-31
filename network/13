@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# It is a DHCP server since a reverse DNS query return: dhcp.42.fr
+
+host 10.51.1.253

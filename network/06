@@ -1,1 +1,5 @@
-/etc/resolv.conf
+#!/usr/bin/env sh
+# The absolute path of the file containing the IP address of the DNS server is:
+# /etc/resolv.conf
+
+ls /etc/resolv.conf

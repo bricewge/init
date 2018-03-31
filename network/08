@@ -1,1 +1,5 @@
-Online
+#!/usr/bin/env sh
+# The hosting provider and registar is: Online
+# The name server are from: Amazon Web Service
+
+whois slash16.org

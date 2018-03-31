@@ -1,1 +1,12 @@
-nslookup slash16.org | grep 'Server:' | cut  -f3
+#!/usr/bin/env sh
+# The answer is coming from:
+# ;; SERVER: 10.51.1.42#53(10.51.1.42)
+# But the actual data come from on of thoses servers:
+# ;; ADDITIONAL SECTION:
+# ns-144.awsdns-18.com.	49394	IN	A	205.251.192.144
+# ns-686.awsdns-21.net.	49394	IN	A	205.251.194.174
+# ns-1236.awsdns-26.org.	49394	IN	A	205.251.196.212
+# ns-1989.awsdns-56.co.uk. 49394	IN	A	205.251.199.197
+
+dig slash16.org
+
